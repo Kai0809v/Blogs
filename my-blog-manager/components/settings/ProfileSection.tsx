@@ -175,7 +175,7 @@ export default function ProfileSection({ formData, handleUpdate, pushToQueue }: 
                   rows={4}
                   value={safeData.friendLinkApplyFormat || ''}
                   onChange={e => handleUpdate('friendLinkApplyFormat', e.target.value)}
-                  placeholder="名称：XingHuiSamaの宝藏之地\n简介：今天我也要学习吗\n链接：https://www.xinghuisama.top\n头像：..."
+                  placeholder="名称：Kai的秘密基地\n简介：今天我也要学习......吗？\n链接：......\n头像：......"
                   className="w-full bg-white/50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-2xl px-4 py-3 text-sm mt-1 outline-none resize-none focus:ring-2 focus:ring-indigo-500 font-mono"
                 />
               </div>

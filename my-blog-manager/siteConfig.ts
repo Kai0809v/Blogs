@@ -2,20 +2,20 @@
 
 export const siteConfig = {
   // 1. 网站标题与博主信息
-  title: "Test Page",
-  faviconUrl: "",
-  authorName: "Test",
-  bio: "在代码、学术与分子动力学模拟间穿梭的普通人。近期正埋头于 GROMACS 模拟研究与神经网络计算。",
+  title: "Kai的秘密基地",
+  faviconUrl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
+  authorName: "Kai",
+  bio: "希望今天会更好",
 
-  navTitle: "Test",
+  navTitle: "Kai",
 
   // 👇 【新增】导航栏中间的那个后缀/分隔符（默认是 の）
   navSuffix: "的",
 
-  navAfter: "宝藏之地",
+  navAfter: "秘密基地",
 
   // 2. 头像设置 (支持网络链接，或将图片放入 public 文件夹后使用 "/me.jpg")
-  avatarUrl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
+  avatarUrl: "http://q2.qlogo.cn/headimg_dl?dst_uin=2723614121&spec=100",
 
   // 3. 网站背景设置 (二选一)
   // 如果想用纯图片背景，请在下面 bgImage 写路径，并将 useGradient 设为 false
@@ -24,6 +24,10 @@ export const siteConfig = {
 // 修改这里：变成图片数组
   bgImages: ["https://bu.dusays.com/2026/03/24/69c1e38b4c370.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4acdb5.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4d9486.jpg"],
 
+  // 🌟 壁纸分组系统：前台轮播「激活分组」内的图片（保持 JSON 格式，便于后台解析）
+  bgGroups: [{"id": "default", "name": "默认", "images": ["https://bu.dusays.com/2026/03/24/69c1e38b4c370.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4acdb5.jpg", "https://bu.dusays.com/2026/03/24/69c26fe4d9486.jpg"]}, {"id": "bg-1790920894965", "name": "风景", "images": ["https://cdn.svipaigc.com/bizi/2024/03/231928-17111207687df9.jpg", "https://cdn.svipaigc.com/bizi/2025/05/20250524152446-6831e4be8228e-scaled.jpg", "https://cdn.svipaigc.com/bizi/2024/02/190949-151947058914b4.jpg", "https://cdn.svipaigc.com/bizi/2023/11/182333-16931318136c55.jpg", "https://ts1.tc.mm.bing.net/th/id/R-C.08ca21be6b067c60a9a536e153c14e87?rik=ndAHuC2ayYmTKg&riu=http%3a%2f%2fimg.netbian.com%2ffile%2f20110727%2fdb5e0a081f21cf9fcb6390536f7933f7.jpg&ehk=toF1qbqiFjjgJn3c%2bMmer6qOEr6j6wv8W2Ou%2fdzdw3Q%3d&risl=&pid=ImgRaw&r=0", "https://img-baofun.zhhainiao.com/fs/15cdd2b1ea6cd26f53e76bbf9ca46b3b.jpg"]}],
+  activeBgGroup: "bg-1790920894965",
+
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)
   defaultPostCover: "https://bu.dusays.com/2026/03/24/69c1e38b346cb.jpg",
 
@@ -31,11 +35,11 @@ export const siteConfig = {
   photoWallImage: "https://bu.dusays.com/2026/03/24/69c1e38b4c370.jpg",
   cloudMusicIds: ["1809646618", "3361076230", "1859390262"],
   social: {
-    github: "https://github.com/heiehiehi",
-    gitee: "https://github.com/heiehiehi",
+    github: "https://github.com/Kai0809v",
+    gitee: "https://gitee.com/Kai0809v",
     google: "kai0809v+media@gmail.com",
     email: "kai0809v@foxmail",
-    qq: "1124533793",
+    qq: "null",
     wechat: "example",
   },
   counts: {
@@ -50,7 +54,7 @@ export const siteConfig = {
   picBedToken: "", // 留空，等你能在后台填入并覆写
 
   // 👇 【新增】：全局背景弹幕配置
-  danmakuList: ["在干嘛呢？", "有笨蛋嘛？", "前方高能反应！", "GROMACS 跑起来了吗？", "MD 模拟什么时候才能出图啊", "Graph Neural Networks 炼丹中...", "BUG 修复进度 99%", "今天背单词了吗？", "Tailwind CSS 拯救前端", "写算法中", "睡大觉中", "到底在干嘛？"],
+  danmakuList: ["在干嘛呢？", "有笨蛋嘛？", "前方高能反应！", "烧烤机器学习难题中...", "炼丹中...", "BUG 修复进度 99%", "今天背单词了吗？", "Tailwind CSS 拯救前端", "写算法中", "睡大觉中", "到底在干嘛？"],
   gitalkConfig: {
     clientID: "",
     clientSecret: "",

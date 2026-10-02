@@ -35,6 +35,7 @@ def main():
     if not os.path.exists(".git"):
         print("🪄 初始化 Git 环境...")
         run_cmd("git init")
+        # 此仓库关联的地址已经改为了ssh的433端口，这个地址会失败，以作为防止手误更新的保险
         run_cmd("git remote add origin https://github.com/Kai0809v/Blogs.git")
 
     # 3. 拉取更新
