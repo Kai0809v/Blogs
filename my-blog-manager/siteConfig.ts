@@ -2,15 +2,15 @@
 
 export const siteConfig = {
   // 1. 网站标题与博主信息
-  title: "XingHuiSama の 宝藏之地",
-  faviconUrl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
-  authorName: "XingHuiSama",
+  title: "Test Page",
+  faviconUrl: "",
+  authorName: "Test",
   bio: "在代码、学术与分子动力学模拟间穿梭的普通人。近期正埋头于 GROMACS 模拟研究与神经网络计算。",
 
-  navTitle: "XingHuiSama",
+  navTitle: "Test",
 
   // 👇 【新增】导航栏中间的那个后缀/分隔符（默认是 の）
-  navSuffix: "の",
+  navSuffix: "的",
 
   navAfter: "宝藏之地",
 
@@ -33,10 +33,10 @@ export const siteConfig = {
   social: {
     github: "https://github.com/heiehiehi",
     gitee: "https://github.com/heiehiehi",
-    google: "mailto:bilibiliwuwuwu@gmail.com",
-    email: "1124533793@qq.com",
+    google: "kai0809v+media@gmail.com",
+    email: "kai0809v@foxmail",
     qq: "1124533793",
-    wechat: "XingHuisama",
+    wechat: "example",
   },
   counts: {
     photos: 128, // 照片墙数量可以手动写死或动态计算
@@ -70,6 +70,6 @@ export const siteConfig = {
     maxOutputTokens: 150,
     temperature: 0.85,
   },
-  friendLinkApplyFormat: "名称：XingHuiSamaの宝藏之地\n简介：今天我也要学习吗\n链接：https://www.xinghuisama.top\n头像：https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
+  friendLinkApplyFormat: "",
   enableLevelSystem: true,
 };
